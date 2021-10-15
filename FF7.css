@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./img/bg-full.jpg) center/cover;
+}
+
+.row {
+  width: 75%;
+  height: 600px;
+  border: 1px solid grey;
+  display: flex;
+}
+
+.col-left {
+  width: 50%;
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(./img/main.jpg) center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-img img {
+  width: 150px;
+  height: 300px;
+}
+
+.word-main {
+  color: white;
+  text-align: center;
+  width: 80%;
+}
+
+.word-main h1, p {
+  margin: 0px;
+}
+
+.col-right {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cloud {
+  height: 300px;
+  background: rgb(169, 170, 171);
+  display: flex;
+  align-items: center;
+}
+
+.word-cloud {
+  color: black;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.word-cloud h1, p {
+  margin: 0px;
+}
+
+.word-cloud p {
+  color: grey;
+}
+
+.cloud-img img {
+  width: 200px;
+  height: 300px;
+}
+
+.tifa {
+  height: 300px;
+  /* 左20px 靠下 / 寬度auto(自動) 高度90% */
+  background: black url(./img/tifa.png) no-repeat 20px bottom/auto 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.word-tifa {
+  margin-right: 30px;
+  color: white;
+  width: 60%;
+}

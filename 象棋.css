@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sentence {
+  writing-mode: vertical-lr;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.checkerboard {
+  width: 640px;
+  height: 720px;
+  border: 1px solid black;
+  padding: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/* 80*80 */
+
+tr {
+  width: 640px;
+  height: 80px;
+  border: 1px solid black;
+}
+
+td {
+  width: 80px;
+  border: 1px solid black;
+}
+
+.line-left {
+  width: 80px;
+  height: 40px;
+  background: linear-gradient(45deg, transparent 49.5%, black 49.5%, black 51%, transparent 51%);
+}
+
+.line-right {
+  width: 80px;
+  height: 40px;
+  background: linear-gradient(-45deg, transparent 49.5%, black 49.5%, black 51%, transparent 51%);
+}
+
+.chess-content1 {
+  position: absolute;
+  display: flex;
+  width: 690px;
+  justify-content: space-between;
+  margin-top: -25px;
+}
+
+.black-chess {
+  z-index: 1;
+  background: white;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+
+.chess-content2 {
+  position: absolute;
+  display: flex;
+  width: 530px;
+  justify-content: space-between;
+  margin-top: 135px;
+}
+
+.chess-content3 {
+  position: absolute;
+  display: flex;
+  width: 690px;
+  justify-content: space-between;
+  margin-top: 215px;
+}
+
+.red-chess {
+  z-index: 1;
+  background: white;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  color: red;
+}
+
+.chess-content4 {
+  position: absolute;
+  display: flex;
+  width: 690px;
+  justify-content: space-between;
+  margin-top: 450px;
+}
+
+.chess-content5 {
+  position: absolute;
+  display: flex;
+  width: 530px;
+  justify-content: space-between;
+  margin-top: 530px;
+}
+
+.chess-content6 {
+  position: absolute;
+  display: flex;
+  width: 690px;
+  justify-content: space-between;
+  margin-top: 695px;
+}
